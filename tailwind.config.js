@@ -3,7 +3,7 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
   plugins: [require('@tailwindcss/typography')],
   purge: {
-    // layers: ["components", "utilities"],
+    layers: ["utilities"],
     mode: "all",
     content: ['*.html'],
   },
