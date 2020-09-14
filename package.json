@@ -1,0 +1,36 @@
+{
+  "scripts": {
+    "start": "NODE_ENV=development npx webpack-cli -w",
+    "build": "NODE_ENV=production npx webpack-cli",
+    "build:dev": "NODE_ENV=development npx webpack-cli"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/plugin-transform-object-assign": "^7.10.4",
+    "@babel/preset-env": "^7.11.5",
+    "@tailwindcss/typography": "^0.2.0",
+    "autoprefixer": "^9.8.6",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.3.0",
+    "del-cli": "^3.0.1",
+    "mini-css-extract-plugin": "^0.11.2",
+    "postcss": "^7.0.32",
+    "postcss-csso": "^4.0.0",
+    "postcss-fixes": "^2.0.1",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^4.0.1",
+    "tailwindcss": "1.7.0",
+    "terser-webpack-plugin": "^4.2.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "browserslist": "> 1% or last 2 years",
+  "name": "webpack-tailwindcss-purgecss",
+  "version": "1.0.0",
+  "description": "Webpack + TailwindCSS + PurgeCSS boilerplate",
+  "author": "Paweł Kowalski <pavelloz@gmail.com>",
+  "license": "ISC"
+}

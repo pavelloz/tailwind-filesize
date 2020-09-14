@@ -1,0 +1,16 @@
+.table {
+  @apply bg-white;
+}
+
+.table th, .table td {
+  @apply px-4 py-2 border border-pos-divider;
+}
+
+
+.table-secondary {
+  background-color: #DFE3EC;
+}
+
+.table-secondary th, .table-secondary td {
+  @apply px-4 py-2 border border-white;
+}

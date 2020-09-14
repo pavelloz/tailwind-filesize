@@ -1,0 +1,15 @@
+.btn {
+  @apply inline-block px-5 py-3 text-base font-semibold uppercase border;
+}
+
+.btn-primary:hover {
+  @apply bg-white text-pos-green;
+}
+
+.btn-primary {
+  @apply text-white border-pos-green bg-pos-green;
+}
+
+.btn-secondary {
+  @apply bg-transparent border-pos-icon-normal text-pos-green;
+}
